@@ -1,0 +1,8 @@
+os: osx
+
+language: shell
+
+script:
+  - echo Hello, MacOS
+  - uname -a
+  - echo $TRAVIS_OS_NAME
